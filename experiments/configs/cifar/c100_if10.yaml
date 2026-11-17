@@ -1,0 +1,7 @@
+dataset: cifar100
+imb_factor: 10
+val_per_class: 100
+stage1: {epochs: 800, lr: 0.05, momentum: 0.9, weight_decay: 0.001, batch_size: 128, warmup_epochs: 5, cutout: 16, sam_rho: 0.05}
+update: {epochs: 100, lr: 0.001, momentum: 0.9, weight_decay: 0.005, batch_size: 128}
+sgp: {eps: 0.9, eps_inc: 0.004, scale_coff: 1.0}
+replay_per_class: 200

@@ -1,0 +1,7 @@
+imb_factor: 10
+val_per_class: 20
+epochs: 60
+lr: 3.0e-3
+bs_tau: 0.5
+distill_weight: 0.25
+replay_per_class: 200
