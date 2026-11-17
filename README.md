@@ -64,10 +64,12 @@ python main.py clip --config configs/clip/if100.yaml --seed 0
 ## Citation
 
 ```bibtex
-@inproceedings{molahasani2026theoretical,
-  title     = {A Theoretical Bridge Between Long-Tailed Recognition and Continual Learning},
-  author    = {Molahasani, Mahdiyar and Greenspan, Michael and Etemad, Ali},
-  booktitle = {Advances in Neural Information Processing Systems (NeurIPS)},
+@inproceedings{molahasani2026bridge,
+  title     = {A Theoretical Bridge Between Long-Tailed
+               Recognition and Continual Learning},
+  author    = {Molahasani, Mahdiyar and Greenspan, Michael
+               and Etemad, Ali},
+  booktitle = {Advances in Neural Information Processing Systems},
   year      = {2026}
 }
 ```
